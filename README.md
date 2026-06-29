@@ -74,14 +74,9 @@ FoodExpress/
     *   Create all required tables (`users`, `restaurants`, `menu`, `orders`, `order_items`).
     *   Seed the database with sample restaurants and menus (e.g., *The Pizza Bakery*, *Leon Grill*, *Meghana Foods*, etc.).
 
-3.  Configure database credentials in [DBConnection.java](file:///c:/Users/harsh/eclipse-workspace/FoodExpress/src/main/java/com/foodapp/util/DBConnection.java):
-    ```java
-    private static final String URL = "jdbc:mysql://localhost:3306/foodexpress?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";       // Change if needed
-    private static final String PASSWORD = "9632";   // Update with your MySQL password
-    ```
+3.  Configure database credentials in [DBConnection.java]
 
-4.  *(Optional)* Run [TestConnection.java](file:///c:/Users/harsh/eclipse-workspace/FoodExpress/src/main/java/com/foodapp/util/TestConnection.java) as a Java Application in Eclipse to verify the database connection:
+4.  *(Optional)* Run [TestConnection.java] as a Java Application in Eclipse to verify the database connection:
     *   If successful, it outputs `Database Connected Successfully!` in the console.
 
 ---
